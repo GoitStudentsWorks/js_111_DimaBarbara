@@ -22,14 +22,6 @@
   width: 100%;
 }
 
-/* .swiper-slide {
-  font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: -0.02em;
-color: #fafafa;
-} */
-
 .skill-item.swiper-slide {
   width: 50%;
   flex-shrink: 0;
@@ -62,6 +54,7 @@ color: #fafafa;
   fill: none;
   stroke: #3b3b3b;
   width: clamp(40px, 5vw, 80px);
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 375px) {
@@ -98,4 +91,15 @@ color: #fafafa;
   .btn-next {
     width: 80px;
   }
+}
+
+@media only screen and (min-width: 1440px) {
+  .skills-container {
+      max-width: 1312px;
+      gap: 72px;
+      padding-bottom: 164px;
+  }
+  .skills.swiper {
+    max-width: 1200px;
+}
 }

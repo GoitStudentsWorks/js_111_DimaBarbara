@@ -6,6 +6,8 @@ import 'swiper/css/navigation';
 const swiper = new Swiper('.skills', {
   slidesPerView: 2,
   loop: true,
+  loopedSlides: 6,
+  slidesPerGroup: 1,
   spaceBetween: 0,
   navigation: {
     nextEl: '.btn-next',
@@ -22,6 +24,7 @@ const swiper = new Swiper('.skills', {
   touchRatio: 1,
   touchAngle: 45,
   grabCursor: true,
+  watchOverflow: false,
   breakpoints: {
     768: {
       slidesPerView: 3,
