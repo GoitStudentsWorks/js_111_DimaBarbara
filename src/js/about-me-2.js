@@ -22,4 +22,12 @@ const swiper = new Swiper('.skills', {
   touchRatio: 1,
   touchAngle: 45,
   grabCursor: true,
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+    },
+    1440: {
+      slidesPerView: 6, 
+    },
+  },
 });
