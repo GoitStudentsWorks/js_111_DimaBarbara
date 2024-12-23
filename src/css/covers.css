@@ -1,17 +1,17 @@
 .covers {
-  height: 960px;
+  height: 508px;
   background-image: url(../img/covers/Covers-mob@1x.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   backdrop-filter: blur(30px);
   margin-bottom: 164px;
+  overflow: hidden;
 }
 .marquee {
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
-  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
