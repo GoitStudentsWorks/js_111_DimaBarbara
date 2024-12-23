@@ -1,5 +1,4 @@
 .skills-container {
-  /* margin: 32px 16px 0; */
   padding: 0 16px;
   display: flex;
   align-items: center;
@@ -89,17 +88,20 @@
     font-size: 20px;
   }
   .btn-next {
-    width: 40px;
+    width: 80px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .skills-container {
-      max-width: 1312px;
-      gap: 72px;
-      padding: 0 64px 164px;
+    max-width: 1312px;
+    gap: 72px;
+    padding: 0 64px 164px;
   }
   .skills.swiper {
     max-width: 1200px;
-}
+  }
+  .btn-next {
+    width: 40px;
+  }
 }
