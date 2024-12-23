@@ -19,6 +19,10 @@
     margin-bottom: 32px;
 }
 
+.proj-swiper {
+    overflow: hidden;
+}
+
 .swiper-wrapper {
     margin-bottom: 32px;
 }
