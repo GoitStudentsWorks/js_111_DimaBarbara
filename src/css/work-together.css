@@ -1,12 +1,8 @@
-.footer-section {
-  padding: 32px 0;
-}
-
 .footer-container {
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 64px;
+  padding-top: 32px 0;
 }
 .footer-title {
   display: flex;
@@ -263,14 +259,8 @@
     width: 24px;
     height: 24px;
   }
-  h3,
   .modal-footer-title {
-    width: 364px;
-  }
-
-  p,
-  .modal-footer-text {
-    width: 364px;
+    letter-spacing: -0.055em;
   }
 }
 
@@ -294,7 +284,7 @@
   }
   .footer-container {
     max-width: 1440px;
-    padding-top: 164px;
+    padding-top: 80px;
     background-position: 1040px;
   }
 }
