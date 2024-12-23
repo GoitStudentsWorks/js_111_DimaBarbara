@@ -1,5 +1,4 @@
 .skills-container {
-  padding: 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -19,6 +18,9 @@
   display: flex;
   transition: transform 0.3s ease;
   width: 100%;
+}
+.skill-list.swiper-wrapper {
+  margin: 0;
 }
 
 .skill-item.swiper-slide {
@@ -96,7 +98,7 @@
   .skills-container {
     max-width: 1312px;
     gap: 72px;
-    padding: 0 64px 164px;
+    padding: 0 64px;
   }
   .skills.swiper {
     max-width: 1200px;
