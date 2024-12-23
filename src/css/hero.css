@@ -54,10 +54,6 @@
     padding: 10px 12px;
     width: 178px;
     height: 37px;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    color: #fafafa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,6 +63,13 @@
 .hero-email:hover,
 .hero-email:focus {
     border: 1px solid #fafafa;
+}
+
+.hero-contact-email {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #fafafa;
 }
 /* #endregion social */
 /* #endregion mobile hero styles*/
@@ -96,10 +99,12 @@
         font-size: 16px;
     }
     .hero-email {
-        font-size: 16px;
         padding: 18px 24px;
         width: 223px;
         height: 55px;
+    }
+    .hero-contact {
+        font-size: 16px;
     }
 }
 /* #endregion tablet hero styles*/
