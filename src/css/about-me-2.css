@@ -89,7 +89,7 @@
     font-size: 20px;
   }
   .btn-next {
-    width: 80px;
+    width: 40px;
   }
 }
 
@@ -97,7 +97,7 @@
   .skills-container {
       max-width: 1312px;
       gap: 72px;
-      padding-bottom: 164px;
+      padding: 0 64px 164px;
   }
   .skills.swiper {
     max-width: 1200px;
