@@ -109,7 +109,7 @@
 
     .benefits-all {
         display: flex;
-        width: 1440px;
+        width: 100%;
 }
 .benefits-ul {
     width: 680px;

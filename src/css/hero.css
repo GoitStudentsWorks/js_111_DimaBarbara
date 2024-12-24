@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 64px;
 }
 
 .hero-title {
@@ -35,6 +36,11 @@
     width: 37px;
     height: 37px;
     margin-bottom: 32px;
+}
+
+.hero-social-item:hover,
+.hero-social-item:focus {
+    border: 1px solid #fafafa;
 }
 
 .hero-social-link {
@@ -80,6 +86,9 @@
     .hero {
         background-image: url('../img/hero/hero-bg-tab-2x.png');
     }
+    .hero-container {
+        max-width: 768px;
+    }
     .hero-title {
         font-size: 90px;
         padding-top: 300px;
@@ -103,7 +112,7 @@
         width: 223px;
         height: 55px;
     }
-    .hero-contact {
+    .hero-contact-email {
         font-size: 16px;
     }
 }
@@ -114,8 +123,13 @@
 @media screen and (min-width: 1440px) {
     .hero {
         background-image: url('../img/hero/hero-bg-desc-2x.png');
+      margin-bottom: 96px;
+    }
+    .container {
+        padding: 0 178px;
     }
     .hero-container {
+        max-width: 1440px;
         display: flex;
         justify-content: center;
     }
