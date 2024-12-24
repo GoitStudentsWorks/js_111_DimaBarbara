@@ -36,12 +36,12 @@ function openMenuFoo() {
   if (!navTablet.classList.contains('visually-hidden')) {
     setTimeout(() => {
       navTablet.classList.add('visually-hidden');
-    }, 300);
+    }, 250);
     return;
   }
   setTimeout(() => {
     navTablet.classList.remove('visually-hidden');
-  }, 300);
+  }, 250);
 }
 
 navList.addEventListener('click', scrollFoo);
