@@ -5,6 +5,7 @@ const navigation = document.querySelector('.nav-list-modal');
 const navTablet = document.querySelector('.nav-tab');
 const menu = document.querySelector('.menu');
 const navList = document.querySelector('.nav-list');
+const workModal = document.querySelector('.work-together');
 
 openModal.addEventListener('click', openModalFoo);
 
@@ -17,6 +18,8 @@ closeModal.addEventListener('click', closeModalFoo);
 function closeModalFoo() {
   modal.classList.remove('is-open');
 }
+
+workModal.addEventListener('click', closeModalFoo);
 
 navigation.addEventListener('click', openNavFoo);
 
