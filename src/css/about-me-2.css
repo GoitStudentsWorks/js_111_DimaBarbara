@@ -76,7 +76,6 @@
   }
   .skills-container {
     max-width: 704px;
-    padding: 0 32px;
     gap: 64px;
     padding-bottom: 96px;
   }
@@ -98,7 +97,7 @@
   .skills-container {
     max-width: 1312px;
     gap: 72px;
-    padding: 0 64px;
+    padding: 0 32px;
   }
   .skills.swiper {
     max-width: 1200px;
