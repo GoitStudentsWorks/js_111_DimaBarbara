@@ -11,12 +11,14 @@ openModal.addEventListener('click', openModalFoo);
 
 function openModalFoo() {
   modal.classList.add('is-open');
+  document.body.classList.add('no-scroll');
 }
 
 closeModal.addEventListener('click', closeModalFoo);
 
 function closeModalFoo() {
   modal.classList.remove('is-open');
+  document.body.classList.remove('no-scroll');
 }
 
 workModal.addEventListener('click', closeModalFoo);
@@ -28,6 +30,7 @@ function openNavFoo(event) {
     return;
   }
   modal.classList.remove('is-open');
+  document.body.classList.remove('no-scroll');
 }
 
 menu.addEventListener('click', openMenuFoo);
