@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-  margin-bottom: 96px;
+    margin-bottom: 64px;
 }
 
 .hero-title {
@@ -80,7 +80,6 @@
 @media screen and (min-width: 768px) {
     .hero {
         background-image: url('../img/hero/hero-bg-tab-2x.png');
-      margin-bottom: 64px;
     }
     .hero-title {
         font-size: 90px;
@@ -116,6 +115,7 @@
 @media screen and (min-width: 1440px) {
     .hero {
         background-image: url('../img/hero/hero-bg-desc-2x.png');
+      margin-bottom: 96px;
     }
     .hero-container {
         display: flex;
