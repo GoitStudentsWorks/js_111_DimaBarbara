@@ -32,8 +32,16 @@
   gap: 12px;
 }
 
+.menu-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 64px;
+  height: 100vh;
+}
+
 .modal-nav {
-  margin-bottom: 289px;
+  /* margin-bottom: 289px; */
   margin-top: 302px;
 }
 
