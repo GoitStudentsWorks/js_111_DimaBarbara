@@ -198,8 +198,11 @@
 
 @media only screen and (min-width: 768px) {
   .footer-section {
-    padding-top: 80px;
     padding-bottom: 169px;
+  }
+
+  .footer-container {
+    padding-top: 88px;
   }
 
   .footer-img {
@@ -242,7 +245,6 @@
   }
   .footer-container {
     max-width: 768px;
-    padding-top: 96px;
     background-position: 570px;
   }
   .email-succes {
