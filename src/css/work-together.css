@@ -49,9 +49,13 @@
   text-overflow: ellipsis;
   transition: border-bottom 250ms ease, color 250ms ease;
 }
+.footer-input:hover::placeholder,
+.footer-input:focus::placeholder {
+  color: #fafafa;
+}
 .footer-input:hover,
 .footer-input:focus {
-  color: #fafafa;
+  border-bottom: 1px solid #fafafa;
 }
 .email-succes {
   position: absolute;

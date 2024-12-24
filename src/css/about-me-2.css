@@ -5,6 +5,9 @@
   flex-direction: row;
   width: 90%;
 }
+.about-me-two.container {
+  padding-bottom: 64px;
+}
 
 .skills.swiper {
   position: relative;
@@ -74,10 +77,12 @@
   .skills.swiper {
     max-width: 600px;
   }
+  .about-me-two.container {
+    padding-bottom: 96px;
+  }
   .skills-container {
     max-width: 704px;
     gap: 64px;
-    padding-bottom: 96px;
   }
   .skill-list.swiper-wrapper {
     margin-bottom: 0;
@@ -104,5 +109,8 @@
   }
   .btn-next {
     width: 40px;
+  }
+  .about-me-two {
+    padding-bottom: 164px;
   }
 }

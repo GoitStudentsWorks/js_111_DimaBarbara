@@ -8,7 +8,7 @@ const swiper = new Swiper('.reviews-container-ul', {
   slidesPerView: 1,
   loopedSlides: 6,
   slidesPerGroup: 1,
-  spaceBetween: 0,
+  spaceBetween: 16,
   navigation: {
         nextEl: '.swiper-button-next-control',
         prevEl: '.swiper-button-prev-control',

@@ -1,81 +1,80 @@
 /* #region mobile hero styles*/
 
 .hero {
-    background-image: url('../img/hero/hero-bg-mob-1x.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 64px;
+  background-image: url('../img/hero/hero-bg-mob-1x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 64px;
 }
 
 .hero-title {
-    font-weight: 500;
-    font-size: 49px;
-    line-height: 1;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    color: #fafafa;
-    padding-top: 281px;
-    padding-bottom: 212px;
+  font-weight: 500;
+  font-size: 49px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fafafa;
+  padding-top: 281px;
+  padding-bottom: 212px;
 }
 
 /* #region social */
 
 .hero-social-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    gap:4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
 }
 
 .hero-social-item {
-    border: 1px solid rgba(250, 250, 250, 0.2);
-    border-radius: 60px;
-    padding: 10px 12px;
-    width: 37px;
-    height: 37px;
-    margin-bottom: 32px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  padding: 10px 12px;
+  width: 37px;
+  height: 37px;
+  margin-bottom: 32px;
 }
 
 .hero-social-item:hover,
 .hero-social-item:focus {
-    border: 1px solid #fafafa;
+  border: 1px solid #fafafa;
 }
 
 .hero-social-link {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    color: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero-email {
-    border: 1px solid rgba(250, 250, 250, 0.2);
-    border-radius: 60px;
-    padding: 10px 12px;
-    width: 178px;
-    height: 37px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 32px;
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  padding: 10px 12px;
+  width: 178px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .hero-email:hover,
 .hero-email:focus {
-    border: 1px solid #fafafa;
+  border: 1px solid #fafafa;
 }
 
 .hero-contact-email {
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    color: #fafafa;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
 }
 /* #endregion social */
 /* #endregion mobile hero styles*/
@@ -83,61 +82,63 @@
 /* #region tablet hero styles*/
 
 @media screen and (min-width: 768px) {
-    .hero {
-        background-image: url('../img/hero/hero-bg-tab-2x.png');
-    }
-    .hero-container {
-        max-width: 768px;
-    }
-    .hero-title {
-        font-size: 90px;
-        padding-top: 300px;
-        padding-bottom: 187px;
-    }
-    .hero-social-list {
-        justify-content: flex-end;
-        gap: 8px;
-        margin-right: 32px;
-    }
-    .hero-social-item {
-        padding: 18px 16px;
-        width: 55px;
-        height: 55px;
-    }
-    .hero-social-link {
-        font-size: 16px;
-    }
-    .hero-email {
-        padding: 18px 24px;
-        width: 223px;
-        height: 55px;
-    }
-    .hero-contact-email {
-        font-size: 16px;
-    }
+  .hero {
+    background-image: url('../img/hero/hero-bg-tab-2x.png');
+  }
+  .hero-container {
+    max-width: 768px;
+  }
+  .hero-title {
+    font-size: 90px;
+    padding-top: 300px;
+    padding-bottom: 187px;
+  }
+  .hero-social-list {
+    justify-content: flex-end;
+    gap: 8px;
+    margin-right: 32px;
+  }
+  .hero-social-item {
+    padding: 18px 16px;
+    width: 55px;
+    height: 55px;
+  }
+  .hero-social-link {
+    font-size: 16px;
+  }
+  .hero-email {
+    padding: 18px 24px;
+    width: 223px;
+    height: 55px;
+  }
+  .hero-contact-email {
+    font-size: 16px;
+  }
 }
 /* #endregion tablet hero styles*/
 
 /* #region desktop hero styles*/
 
 @media screen and (min-width: 1440px) {
-    .hero {
-        background-image: url('../img/hero/hero-bg-desc-2x.png');
-      margin-bottom: 96px;
-    }
-    .container {
-        padding: 0 178px;
-    }
-    .hero-container {
-        max-width: 1440px;
-        display: flex;
-        justify-content: center;
-    }
-    .hero-title {
-        padding-bottom: 243px;
-    }
-    .hero-social-item {
-        padding: 18px 20px;
-    }
+  .hero {
+    background-image: url('../img/hero/hero-bg-desc-2x.png');
+    margin-bottom: 96px;
+  }
+  .container {
+    padding: 0 178px;
+  }
+  .hero-container {
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-title {
+    padding-bottom: 243px;
+    width: 1084px;
+    letter-spacing: -0.08em;
+  }
+  .hero-social-item {
+    padding: 18px 20px;
+  }
 }
 /* #endregion desktop hero styles*/

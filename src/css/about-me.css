@@ -1,8 +1,8 @@
 .about-me.container {
-  padding-bottom: 64px;
+  margin-bottom: 32px;
 }
 #about-me .about-box {
-  margin-bottom: 64px;
+  margin-bottom: 32px;
 }
 .hidden {
   position: absolute;
@@ -29,6 +29,12 @@
   letter-spacing: -0.02em;
   text-align: left;
   color: #fafafa;
+}
+.all-txt.first-margin .acor-txt:first-child {
+  margin-bottom: 32px;
+}
+.all-txt .acor-txt {
+  margin-bottom: 10px;
 }
 
 .about-subtitle {
@@ -61,7 +67,7 @@
 }
 
 .subtitle-func {
-  color: #ed3b44;
+  color: #2b4441;
 }
 
 .subtitle-web-grey {
@@ -155,7 +161,7 @@ ul.accordion-info-about-me-list
   li.ac
   .ac-trigger.accordion-button-up-down:hover::after {
   border-color: #fafafa;
-  box-shadow: 0 0 15px #ed3b44;
+  box-shadow: 0 0 15px #2b4441;
 }
 
 .about-me-arrow-icon {
@@ -171,7 +177,13 @@ ul.accordion-info-about-me-list li.ac.is-active .about-me-arrow-icon {
 
 @media only screen and (min-width: 768px) {
   .about-me.container {
-    padding-bottom: 96px;
+    margin-bottom: 64px;
+  }
+  .about-subtitle {
+    margin-bottom: 64px;
+  }
+  .all-txt.first-margin .acor-txt:first-child {
+    margin-bottom: 16px;
   }
   .about-subtitle-text {
     font-size: 38px;
@@ -193,7 +205,8 @@ ul.accordion-info-about-me-list li.ac.is-active .about-me-arrow-icon {
 }
 @media only screen and (min-width: 1440px) {
   .about-me.container {
-    padding-bottom: 164px;
+    padding-bottom: 0;
+    margin-bottom: 96px;
   }
   .about-subtitle {
     flex-direction: row;
@@ -211,13 +224,25 @@ ul.accordion-info-about-me-list li.ac.is-active .about-me-arrow-icon {
   .about-subtitle-text {
     letter-spacing: -0.06em;
   }
-  .all-txt {
+  .ac-panel.triple.about-me-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  li.about-me-item-container.ac .ac-panel {
+    flex-direction: row;
+  }
+  .all-txt,
+  .ac-panel.about-me-text {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    flex-direction: column;
   }
   .acor-txt {
     width: 612px;
     text-align: right;
+  }
+  .all-txt.first-margin .acor-txt:first-child {
+    margin-bottom: 32px;
   }
 }
