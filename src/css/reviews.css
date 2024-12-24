@@ -203,7 +203,7 @@
   .reviews-list li {
     max-width: 332px;
   }
-  .swiper-slide.swiper-slide {
+  .swiper-slide.swiper-slide.bomba {
     display: block;
   }
 }

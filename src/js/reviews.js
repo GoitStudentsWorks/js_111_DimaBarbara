@@ -44,7 +44,8 @@ const foo = async () => {
         console.log(data);
         data.map(review => {
             const li = document.createElement('li');
-            li.classList.add('swiper-slide');
+          li.classList.add('swiper-slide');
+          li.classList.add('bomba');
   
             const avatar = document.createElement('img');
             avatar.src = review.avatar_url;
