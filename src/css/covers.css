@@ -7,15 +7,28 @@
   backdrop-filter: blur(30px);
   margin-bottom: 164px;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 .marquee {
   display: flex;
   flex-wrap: wrap;
   gap: 35px;
-  margin-left: auto;
-  margin-right: auto;
   padding: 0;
   max-width: 375px;
+}
+.hidden-covers {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .marquee__inner {
   display: flex;
@@ -44,7 +57,6 @@
 @media (min-width: 375px) {
   .covers {
     background-image: url(../img/covers/covers-mob@1x.jpg);
-    height: 960px;
     background-size: cover;
   }
   .marquee {
@@ -61,6 +73,7 @@
 @media (min-width: 768px) {
   .covers {
     background-image: url(../img/covers/covers-tab@1x.jpg);
+    height: 960px;
   }
   .marquee__line {
     width: 544px;
