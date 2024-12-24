@@ -32,6 +32,7 @@ const swiper = new Swiper('.reviews-container-ul', {
     },
     1440: {
       slidesPerView: 4,
+      
     },
   },
 });
