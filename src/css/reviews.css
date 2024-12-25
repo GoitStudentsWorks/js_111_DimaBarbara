@@ -163,10 +163,10 @@
 
 /* MEDIA */
 @media only screen and (min-width: 768px) {
-.section-reviews {
-  padding-top: 96px;
-  padding-bottom: 48px;
-}
+  .section-reviews {
+    padding-top: 96px;
+    padding-bottom: 48px;
+  }
 
   .container {
     max-width: 768px;
@@ -179,7 +179,7 @@
   }
 
   .reviews-container {
-    width: 704px;
+    max-width: 704px;
   }
 
   .reviews-container-turns {
@@ -188,7 +188,7 @@
   }
 
   .reviews-list li {
-    max-width: 344px;
+    width: 344px;
   }
 }
 
@@ -203,7 +203,7 @@
   }
 
   .reviews-container {
-    width: 1376px;
+    max-width: 1376px;
     height: 302px;
   }
 

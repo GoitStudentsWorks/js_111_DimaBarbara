@@ -27,6 +27,7 @@
   flex-direction: row;
   gap: 4px;
   padding-bottom: 32px;
+  flex-wrap: wrap;
 }
 
 .hero-social-item {

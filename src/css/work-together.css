@@ -1,5 +1,5 @@
 .footer-section {
-padding-top: 32px;
+  padding-top: 32px;
 }
 
 .footer-container {
@@ -129,11 +129,10 @@ padding-top: 32px;
 .footer-contact:focus {
   border: 1px solid #fafafa;
 }
-.footer-email {
-  margin-right: 4px;
-}
 .footer-contacts-container {
   display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
 }
 .input-succes-js {
   border-bottom: 1px solid #3cbc81;
