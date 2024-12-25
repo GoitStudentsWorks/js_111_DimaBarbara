@@ -1,9 +1,5 @@
 import Swiper from 'swiper';
-<<<<<<< HEAD
-import { Keyboard, Navigation } from 'swiper/modules';
-=======
 import { Navigation, Keyboard } from 'swiper/modules';
->>>>>>> 43c256442540072d9edaaeae8f29383f5e390e79
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/keyboard';
