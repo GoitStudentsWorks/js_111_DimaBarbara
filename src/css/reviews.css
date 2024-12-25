@@ -27,7 +27,7 @@
 }
 
 .reviews-container {
-  width: 344px;
+  max-width: 344px;
   margin-bottom: 32px;
 }
 
