@@ -74,7 +74,7 @@ ul.accordion-container li.ac .ac-trigger.faq-button:hover::after {
 }
 .faq-arrow-icon {
   position: absolute;
-  top: 10px;
+  top: 11px;
   right: 6px;
   transition: transform 0.3s ease-in-out;
 }
@@ -133,7 +133,7 @@ ul.accordion-container li.ac .ac-panel p.ac-text.faq-text {
   }
 
   .faq-arrow-icon {
-    top: 12px;
+    top: 11px;
     right: 6px;
   }
 }

@@ -1,8 +1,9 @@
 import Swiper from 'swiper';
-import { Navigation } from 'swiper/modules';
+import { Keyboard, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import axios from "axios";
+import 'swiper/css/keyboard';
 
 const swiper = new Swiper('.reviews-container-ul', {
   slidesPerView: 1,
@@ -13,7 +14,7 @@ const swiper = new Swiper('.reviews-container-ul', {
         nextEl: '.swiper-button-next-control',
         prevEl: '.swiper-button-prev-control',
   },
-  modules: [Navigation],
+  modules: [Navigation, Keyboard],
   keyboard: {
     enabled: true,
     onlyInViewport: true,

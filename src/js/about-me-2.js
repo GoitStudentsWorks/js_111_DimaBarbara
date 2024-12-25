@@ -1,7 +1,8 @@
 import Swiper from 'swiper';
-import { Navigation } from 'swiper/modules';
+import { Keyboard, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import 'swiper/css/keyboard';
 
 const swiper = new Swiper('.skills', {
   slidesPerView: 2,
@@ -12,7 +13,7 @@ const swiper = new Swiper('.skills', {
   navigation: {
     nextEl: '.btn-next',
   },
-  modules: [Navigation],
+  modules: [Navigation, Keyboard],
   keyboard: {
     enabled: true,
     onlyInViewport: true,
