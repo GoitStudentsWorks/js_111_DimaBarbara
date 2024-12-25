@@ -6,7 +6,7 @@
   width: 90%;
 }
 .about-me-two.container {
-  padding-bottom: 64px;
+  padding-bottom: 32px;
 }
 
 .skills.swiper {
@@ -78,7 +78,7 @@
     max-width: 600px;
   }
   .about-me-two.container {
-    padding-bottom: 96px;
+    padding-bottom: 48px;
   }
   .skills-container {
     max-width: 704px;
@@ -110,7 +110,7 @@
   .btn-next {
     width: 40px;
   }
-  .about-me-two {
-    padding-bottom: 164px;
+  .about-me-two.container {
+    padding-bottom: 82px;
   }
 }
