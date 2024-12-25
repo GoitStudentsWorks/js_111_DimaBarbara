@@ -104,10 +104,10 @@ ul.accordion-container li.ac .ac-panel p.ac-text.faq-text {
 
 /* Medium screen adjustments */
 @media only screen and (min-width: 768px) {
-.faq-section.section {
-padding-top: 0;
-padding-bottom: 48px;
-}
+  .faq-section.section {
+    padding-top: 0;
+    padding-bottom: 48px;
+  }
 
   .container.faq-container {
     padding: 0 32px;
@@ -144,9 +144,9 @@ padding-bottom: 48px;
 
 /* Large screen adjustments */
 @media screen and (min-width: 1440px) {
-.faq-section.section {
-  padding-bottom: 82px 0;
-}
+  .faq-section.section {
+    padding-bottom: 82px;
+  }
 
   .container.faq-container {
     padding: 82px 0;
