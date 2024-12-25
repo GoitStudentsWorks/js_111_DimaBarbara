@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Keyboard } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -12,7 +12,7 @@ const swiper = new Swiper('.skills', {
   navigation: {
     nextEl: '.btn-next',
   },
-  modules: [Navigation],
+  modules: [Navigation, Keyboard],
   keyboard: {
     enabled: true,
     onlyInViewport: true,
@@ -30,7 +30,7 @@ const swiper = new Swiper('.skills', {
       slidesPerView: 3,
     },
     1440: {
-      slidesPerView: 6, 
+      slidesPerView: 6,
     },
   },
 });
