@@ -1,7 +1,8 @@
 /* #region Benefits Mobile */
 
 .benefits {
-  margin-bottom: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .benefits-all {
@@ -85,7 +86,7 @@
 
 @media screen and (min-width: 768px) {
   .benefits {
-    margin-bottom: 96px;
+    padding: 48px 0;
   }
 
   .benefits-all {
@@ -104,7 +105,7 @@
 
 @media screen and (min-width: 1440px) {
   .benefits {
-    margin-bottom: 164px;
+    padding: 82px 0;
   }
 
   .benefits-all {

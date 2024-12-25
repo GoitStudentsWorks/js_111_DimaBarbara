@@ -1,6 +1,7 @@
 /* #region mob */
 .projects {
-  padding-bottom: 64px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .projects-container {
@@ -122,7 +123,7 @@
 /* #region tab */
 @media screen and (min-width: 768px) {
   .projects {
-    padding-bottom: 96px;
+    padding: 48px 0;
   }
 
   .projects-container {
@@ -182,7 +183,7 @@
 /* #region desk */
 @media screen and (min-width: 1440px) {
   .projects {
-    padding-bottom: 164px;
+    padding: 82px 0;
   }
 
   .projects-container {

@@ -1,3 +1,7 @@
+.footer-section {
+padding-top: 32px;
+}
+
 .footer-container {
   max-width: 375px;
   margin-left: auto;
@@ -205,9 +209,9 @@
     padding: 80px 32px 169px 32px;
     margin: 0 auto;
   }
-  /* .footer-section {
-    padding-bottom: 169px;
-  } */
+  .footer-section {
+    padding-top: 48px;
+  }
 
   /* .footer-container {
     padding-top: 88px;
@@ -276,6 +280,9 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .footer-section {
+    padding-top: 82px;
+  }
   .container.footer-container {
     padding: 80px 0 169px 0;
   }
