@@ -7,7 +7,8 @@
 }
 
 .section-reviews {
-  margin-bottom: 64px;
+  padding-top: 64px;
+  padding-bottom: 32px;
 }
 
 .reviews-page {
@@ -22,7 +23,7 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
   color: rgba(250, 250, 250, 0.4);
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .reviews-container {
@@ -162,13 +163,14 @@
 
 /* MEDIA */
 @media only screen and (min-width: 768px) {
+.section-reviews {
+  padding-top: 96px;
+  padding-bottom: 48px;
+}
+
   .container {
     max-width: 768px;
     padding: 0 32px;
-  }
-
-  .section-reviews {
-    margin-bottom: 96px;
   }
 
   .reviews-page {
@@ -197,7 +199,7 @@
   }
 
   .section-reviews {
-    margin-bottom: 164px;
+    padding: 164px 0 82px;
   }
 
   .reviews-container {
