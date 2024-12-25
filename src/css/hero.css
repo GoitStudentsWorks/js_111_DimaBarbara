@@ -5,7 +5,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: 64px;
 }
 
 .hero-title {
@@ -27,15 +26,14 @@
   justify-content: center;
   flex-direction: row;
   gap: 4px;
+  padding-bottom: 32px;
 }
 
 .hero-social-item {
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 60px;
-  padding: 10px 12px;
   width: 37px;
   height: 37px;
-  margin-bottom: 32px;
 }
 
 .hero-social-item:hover,
@@ -51,18 +49,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .hero-email {
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 60px;
-  padding: 10px 12px;
   width: 178px;
   height: 37px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 32px;
 }
 
 .hero-email:hover,
@@ -75,6 +72,7 @@
   font-size: 14px;
   letter-spacing: -0.02em;
   color: #fafafa;
+  padding: 10px 12px;
 }
 /* #endregion social */
 /* #endregion mobile hero styles*/
@@ -96,23 +94,23 @@
   .hero-social-list {
     justify-content: flex-end;
     gap: 8px;
-    margin-right: 32px;
+    padding-right: 32px;
   }
   .hero-social-item {
-    padding: 18px 16px;
     width: 55px;
     height: 55px;
   }
   .hero-social-link {
     font-size: 16px;
+    padding: 18px 0;
   }
   .hero-email {
-    padding: 18px 24px;
     width: 223px;
     height: 55px;
   }
   .hero-contact-email {
     font-size: 16px;
+    padding: 18px 24px;
   }
 }
 /* #endregion tablet hero styles*/
@@ -122,7 +120,6 @@
 @media screen and (min-width: 1440px) {
   .hero {
     background-image: url('../img/hero/hero-bg-desc-2x.png');
-    margin-bottom: 96px;
   }
   .container {
     padding: 0 178px;
@@ -136,9 +133,6 @@
     padding-bottom: 243px;
     width: 1084px;
     letter-spacing: -0.08em;
-  }
-  .hero-social-item {
-    padding: 18px 20px;
   }
 }
 /* #endregion desktop hero styles*/
