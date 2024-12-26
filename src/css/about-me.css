@@ -1,4 +1,4 @@
-.about-me.container {
+.about-me {
   padding-top: 64px;
   padding-bottom: 32px;
 }
@@ -175,9 +175,8 @@ ul.accordion-info-about-me-list li.ac.is-active .about-me-arrow-icon {
 }
 
 @media only screen and (min-width: 768px) {
-  .about-me.container {
+  .about-me {
     padding-top: 64px;
-
   }
   .about-subtitle {
     margin-bottom: 64px;
@@ -204,7 +203,7 @@ ul.accordion-info-about-me-list li.ac.is-active .about-me-arrow-icon {
   }
 }
 @media only screen and (min-width: 1440px) {
-  .about-me.container {
+  .about-me {
     padding-top: 96px;
   }
   .about-subtitle {

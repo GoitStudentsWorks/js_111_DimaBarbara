@@ -110,8 +110,7 @@ ul.accordion-container li.ac .ac-panel p.ac-text.faq-text {
   }
 
   .container.faq-container {
-    padding: 0 32px;
-    padding: 48px 0;
+    padding: 48px 32px;
   }
 
   ul.accordion-container li.ac.faq-item-container {
@@ -149,7 +148,7 @@ ul.accordion-container li.ac .ac-panel p.ac-text.faq-text {
   }
 
   .container.faq-container {
-    padding: 82px 0;
+    padding: 82px 32px;
   }
 
   ul.accordion-container {
