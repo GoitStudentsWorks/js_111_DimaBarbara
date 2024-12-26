@@ -9,24 +9,22 @@ import './js/covers';
 import './js/reviews';
 import './js/work-together';
 
-document.addEventListener("DOMContentLoaded", () => {
-  const scrollUpButton = document.getElementById("scrollUp");
+document.addEventListener('DOMContentLoaded', () => {
+  const scrollUpButton = document.getElementById('scrollUp');
   const scrollThreshold = 300;
 
-  window.addEventListener("scroll", () => {
+  window.addEventListener('scroll', () => {
     if (window.scrollY > scrollThreshold) {
-      scrollUpButton.classList.remove("hidden");
-      scrollUpButton.style.display = "block";
+      scrollUpButton.classList.remove('hidden');
     } else {
-      scrollUpButton.classList.add("hidden");
-      scrollUpButton.style.display = "none";
+      scrollUpButton.classList.add('hidden');
     }
   });
 
-  scrollUpButton.addEventListener("click", () => {
+  scrollUpButton.addEventListener('click', () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: 'smooth',
     });
   });
 });
