@@ -42,7 +42,6 @@ const reviewsList = document.getElementById('reviews-list');
 const foo = async () => {
     try {
         const { data } = await axios.get('https://portfolio-js.b.goit.study/api/reviews');
-        console.log(data);
         data.map(review => {
             const li = document.createElement('li');
           li.classList.add('swiper-slide');
