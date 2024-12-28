@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-WebGuru/",
+    "build": "vite build --base=/js_111_DimaBarbara/",
     "preview": "vite preview"
   },
   "devDependencies": {
